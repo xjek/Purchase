@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="60dp"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:gravity="center">
+
+    <TextView
+        android:id="@+id/tabTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Спорные заявки"
+        android:textColor="@color/white"
+        style="@android:style/TextAppearance.Widget.TabWidget"/>
+
+    <TextView
+        android:id="@+id/count"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="5dp"
+        android:text="0"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="10sp"
+        android:background="@drawable/bg_for_text_count"/>
+
+</LinearLayout>

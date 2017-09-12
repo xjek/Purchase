@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">Закупочная комиссия</string>
+
+    <string name="company_name_short">СТП</string>
+    <string name="company_name">ООО "Сиб-Транс-Петройл"</string>
+    <string name="login">Логин</string>
+    <string name="password">Пароль</string>
+    <string name="enter">Войти</string>
+    <string name="enterGoogle">Войти через Google</string>
+    <string name="textDefaultLoading">Пожалуйста подождите...</string>
+    <string name="errorEmptyLoginPass">Введите логин и пароль</string>
+
+
+    <!--Код сервака-->
+    <string name="server_client_id">key</string>
+
+    <string name="Select_field">Выберите поля</string>
+    <string name="cancel">Закрыть</string>
+    <string name="apply">Применить</string>
+    <string name="reset">Сбросить</string>
+
+    <string name="menu_field">Показать поля</string>
+
+    <string name="supplier">Поставщики</string>
+
+    <string name="vote">Голосовать</string>
+
+    <string name="errorAccess">У вас нет прав для входа</string>
+
+
+    <string name="loading_vote">Отправка голоса</string>
+
+    <string name="error_login">Ошибка авторизации</string>
+    <string name="error_timeout">Сервер не отвечает</string>
+
+    <string name="your_vote">Ваш голос</string>
+
+    <string name="notification_success">Поступило 34 новых заявок</string>
+    <string name="notificatoin_error">Заявки неодобрены</string>
+
+    <string name="search_by_nomenclature">Поиск по номенклатуре</string>
+    <string name="filter_by_organization">Фильтр по организации</string>
+    <string name="filter_by_subdivision">Фильтр по подразделениям</string>
+    <string name="filter_by_initiator">Фильтр по инициатору</string>
+    <string name="fiter_reset">Сбросить все фильтры</string>
+
+    <string name="holder_search">Номенклатура...</string>
+
+    <style name="appbar_scrolling_view_behavior">SCROLLING</style>
+
+    <string name="trusted_supplier">Доверенный поставщик</string>
+    <string name="info_about_supplier">Информация о поставщике</string>
+    <string name="no_vote">Нет голосов</string>
+
+    <string name="vote_again">Голосовать снова</string>
+
+    <string name="dialog_comment_title">Комментарии</string>
+    <string name="dialog_comment_tech">Техническое задание</string>
+    <string name="dialog_comment_tech_is_empty">Не указано</string>
+    <string name="dialog_filter_reset">Сбросить все</string>
+
+    <string name="dialog_error_title">Неожиданная ошибка</string>
+    <string name="dialog_error_text">Приложение завершилось с ошибкой. Отчет уже отправлен. В ближайшее время она будет устранена.</string>
+</resources>

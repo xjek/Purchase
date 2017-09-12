@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableRow  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/table_row"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:gravity="center_horizontal|center_vertical"
+        android:background="@color/light_gray"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="1dp"
+        android:id="@+id/table_cell">
+
+        <TextView
+            android:textSize="10sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Срок"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="12 дн"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:gravity="center_horizontal|center_vertical"
+        android:background="@color/light_gray"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="1dp">
+
+        <TextView
+            android:textSize="10sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Срок"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="12 дн"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:gravity="center_horizontal|center_vertical"
+        android:background="@color/light_gray"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="1dp">
+
+        <TextView
+            android:textSize="10sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Срок"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="12 дн"/>
+    </LinearLayout>
+</TableRow>

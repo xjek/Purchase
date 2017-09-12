@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+    android:background="@drawable/selector_item_list">
+
+    <RelativeLayout
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/layout_stroke_right"
+        android:gravity="center_vertical">
+
+        <View
+            android:id="@+id/time_over"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="3dp"
+            android:background="@color/green"
+            android:visibility="gone" />
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="5dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/layout_stroke_left" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/data"
+                style="@style/ItemNomenclatureDate"
+                android:text="08.04.17" />
+
+            <TextView
+                android:id="@+id/time"
+                style="@style/ItemNomenclatureTime"
+                android:text="12:00" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/bookmark"
+            style="@style/ItemNomenclatureBookmark"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/linearLayout"
+            android:text="сверх срочная"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/cycle_bottom"
+            android:layout_width="7dp"
+            android:layout_height="7dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/layout_circle_in_stroke" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="8dp"
+        android:paddingTop="16dp">
+        <LinearLayout
+            android:orientation="horizontal"
+            style="@style/ItemNomenclatureLayout">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="5">
+                <ImageView
+                    style="@style/ItemNomenclatureImage"
+                    app:srcCompat="@drawable/ic_university"/>
+                <TextView
+                    android:id="@+id/sub"
+                    android:text="Мищенко Артур Н. ИП"
+                    style="@style/ItemNomenclatureTextParam"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="5">
+                <ImageView
+                    style="@style/ItemNomenclatureImage"
+                    app:srcCompat="@drawable/ic_recycler"/>
+                <TextView
+                    android:id="@+id/organization"
+                    style="@style/ItemNomenclatureTextParam"
+                    android:text="Основное подразделение"/>
+            </LinearLayout>
+
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp">
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Видеокарта GIGABYTE GeForce GT 710 Silient LP [N710SL-1GL"
+                android:layout_toLeftOf="@+id/count"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:paddingRight="10dp"
+                style="@style/ItemNomenclatureTextMain"/>
+            <TextView
+                android:id="@+id/count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="121 шт"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignBottom="@+id/name"
+                android:gravity="center_vertical"
+                style="@style/ItemNomenclatureTextMain"/>
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            style="@style/ItemNomenclatureLayout">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="5">
+                    <ImageView
+                        style="@style/ItemNomenclatureImage"
+                        app:srcCompat="@drawable/ic_user"/>
+                    <TextView
+                        android:id="@+id/user"
+                        android:text="Евгений"
+                        style="@style/ItemNomenclatureTextParam"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="5"
+                    android:paddingBottom="16dp"
+                    android:id="@+id/show_comments">
+                    <ImageView
+                        style="@style/ItemNomenclatureImage"
+                        app:srcCompat="@drawable/ic_comment"/>
+                    <TextView
+                        android:id="@+id/comments"
+                        android:text="2 Комментария"
+                        style="@style/ItemNomenclatureTextParam"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

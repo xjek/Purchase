@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--<item
+        android:id="@+id/menu_notification"
+        android:title="@string/menu_field"
+        android:icon="@drawable/ic_notification"
+        app:showAsAction="ifRoom|withText"/>-->
+
+    <group android:id="@+id/menu_group_nomenclature" android:visible="false">
+        <item
+            android:id="@+id/menu_search"
+            android:title="@string/search_by_nomenclature"
+            android:icon="@drawable/ic_search"
+            app:actionViewClass="android.support.v7.widget.SearchView"
+            app:showAsAction="always|collapseActionView"/>
+
+        <item
+            android:id="@+id/filter_by_organization"
+            android:title="@string/filter_by_organization"
+            app:showAsAction="withText"/>
+        <item
+            android:id="@+id/filter_by_subdivision"
+            android:title="@string/filter_by_subdivision"
+            app:showAsAction="withText"/>
+        <item
+            android:id="@+id/filter_by_initiator"
+            android:title="@string/filter_by_initiator"
+            app:showAsAction="withText"/>
+        <item
+            android:id="@+id/filter_reset"
+            android:title="@string/fiter_reset"
+            app:showAsAction="withText"/>
+    </group>
+
+</menu>

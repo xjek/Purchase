@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#5025a5</color>
+    <color name="colorPrimaryDark">#32148f</color>
+    <color name="colorAccent">#efcb20</color>
+
+    <color name="colorTitle">#202023</color>
+
+    <color name="colorWhile">#ffffff</color>
+    <color name="colorVoteUser">#ff0011</color>
+
+    <color name="white">#fff</color>
+    <color name="black">#000</color>
+    <color name="light_black">#414141</color>
+    <color name="red">#f11a28</color>
+    <color name="gray">#afafaf</color>
+    <color name="orange">#f56d0d</color>
+    <color name="green">#229f2e</color>
+    <color name="light_gray">#e4e4e4</color>
+    <color name="light_gray2">#efeeea</color>
+
+    <color name="item_list_select">#ddcff8</color>
+    
+    <color name="login_gradient_color1">#3f0fa5</color>
+    <color name="login_gradient_color2">#442c76</color>
+    <color name="colorButtonLoginDefault">#8d5df0</color>
+    <color name="colorButtonLoginPressed">#5f33ba</color>
+
+    <color name="colorCheckboxControlActive">#afafaf</color>
+    <color name="colorCheckboxControlNotActive">#fff</color>
+</resources>
